@@ -115,3 +115,17 @@ small{
 .dev-para{
     text-align: justify;
 }
+
+/* =================================== Global Section =============================== */
+
+.global-section{
+    display: flex;
+    margin-top: 60px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: bottom right;
+}
+.dev-items-2{
+    margin-left: 11%;
+}
