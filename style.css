@@ -1,4 +1,45 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main-section{
+    display: flex;
+}
+.main-div1{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.main-div{
+    width: 50%;
+}
+.main-div img{
+    width: 60%;
+}
+.main-header{
     font-family: 'Montserrat Alternates', sans-serif;
+    border-left: 5px solid orange;
+    border-image-slice: 1;
+    border-radius: 3px;
+}
+.main-header h1{
+    font-size: 50px;
+}
+.main-header h1 span{
+    color: rgb(218, 54, 87);
+}
+.main-para{
+    width: 70%;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(231, 118, 43);
+    color: papayawhip;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+small{
+    display: block;
+    margin-top: 30px;
 }
