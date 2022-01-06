@@ -135,7 +135,7 @@ small{
 .fin-items{
     display: flex;
     width: 90%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .fin-header{
     text-align: center;
@@ -159,6 +159,7 @@ small{
     padding: 5px;
 }
 .f-header{
+    font-family: 'Vujahday Script', cursive;
     font-size: 30px;
     color: blanchedalmond;
 }
