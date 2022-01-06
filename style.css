@@ -4,6 +4,13 @@ body{
 }
 
 /* =================================== Main Section =============================== */
+h1{
+    font-size: 40px;
+    color: rgb(53, 51, 51);
+}
+h2{
+    font-weight: 700;
+}
 .main-section{
     display: flex;
 }
@@ -66,8 +73,8 @@ small{
 }
 .mis-area{
     display: flex;
-    width: 85%;
-    margin-left: 6.5%;
+    width: 80%;
+    margin-left: 8.5%;
 }
 .mis-items{
     width: 100%;
@@ -78,6 +85,33 @@ small{
     padding-right: 20px;
     border-radius: 30px;
 }
+.mis-items p{
+    font-size: 13px;
+}
 .mis-items img{
     width: 40%;
+}
+
+
+/* =================================== Develop Section =============================== */
+
+.develop-section{
+    display: flex;
+    margin-top: 70px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left;
+}
+.dev-items{
+    margin-right: 50px;
+    padding-right: 20%;
+}
+.dev-img img{
+    width: 60%;
+    border-radius: 20px;
+    margin-left: 24%;
+}
+.dev-para{
+    text-align: justify;
 }
