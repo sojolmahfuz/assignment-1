@@ -129,3 +129,24 @@ small{
 .dev-items-2{
     margin-left: 11%;
 }
+
+/* =================================== Finance Section =============================== */
+
+.fin-items{
+    display: flex;
+    width: 90%;
+    margin-top: 5%;
+}
+.fin-header{
+    text-align: center;
+    margin-top: 7%;
+}
+.fin-img img{
+    width: 150%;
+    margin-left: 100px;
+}
+.fin-items-2{
+    margin-left: 200px;
+    padding-left: 100px;
+    width: 100%;
+}
